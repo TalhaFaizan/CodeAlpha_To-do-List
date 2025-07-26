@@ -1,0 +1,82 @@
+ body { 
+        font-family: sans-serif; 
+        margin: 20px; 
+        background-color: #f5f5f5;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    input { 
+        margin-right: 5px; 
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        width: 70%;
+    }
+    button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+    h2 {
+        color: #333;
+        border-bottom: 2px solid #4CAF50;
+        padding-bottom: 10px;
+    }
+    ul {
+        padding-left: 0;
+    }
+    li {
+        background-color: white;
+        padding: 12px;
+        border-radius: 4px;
+        border-left: 4px solid #4CAF50;
+        margin-bottom: 10px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 45px;
+    }
+    li .task-text {
+        flex-grow: 1;
+        padding: 3px 0;
+        line-height: 1.4;
+        min-height: 18px;
+    }
+    li .task-buttons {
+        display: flex;
+        gap: 5px;
+    }
+    li button {
+        background-color: #f44336;
+        margin-left: 0px;
+        font-size: 12px;
+        padding: 7px 10px;
+        min-height: 30px;
+    }
+    li button:hover {
+        background-color: #d32f2f;
+    }
+    .completed {
+        text-decoration: line-through;
+        opacity: 0.6;
+    }
+    .edit-btn {
+        background-color: #2196F3 !important;
+    }
+    .edit-btn:hover {
+        background-color: #1976D2 !important;
+    }
+    .complete-btn {
+        background-color: #FF9800 !important;
+    }
+    .complete-btn:hover {
+        background-color: #F57C00 !important;
+    }
